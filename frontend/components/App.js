@@ -1,5 +1,11 @@
 import React,{useState, useEffect} from 'react'
 import axios from "axios";
+import styled from "styled-components";
+
+const StyledCard = styled.div
+    'border: 1px solid black;'
+
+
 const api_key = 'DEMO_KEY'
 const url = `https://api.nasa.gov/planetary/apod?api_key=${api_key}`
 
